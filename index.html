@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beep Vox</title>
+
+</head>
+
+<body>
+    <form id="form">
+        <textarea id="dialogueInput" name="dialogue" rows="4" cols="50">Words should always have the same sound - test: Margot, Margot, Margot, Margot. Darcy, Darcy, Darcy. Margot, Darcy, Margot, Darcy.
+        </textarea>
+        <br />
+        <button id="submitBtn" type="submit">Submit</button>
+    </form>
+    <select id="textSpeed"></select>
+    <input type="range" min="110" max="1720" value="440" class="slider" id="pitchSlider">
+    <select id="waveType"></select>
+    <p id="dialogueDisplay"></p>
+    <script src="main.js"></script>
+</body>
+
+</html>
